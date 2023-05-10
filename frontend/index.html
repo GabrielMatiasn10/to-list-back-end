@@ -5,12 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
-    <title>listas de tarefaS</title>
+    <title>listas de tarefas</title>
 </head>
 <body>
-    <h1>sem coragem</h1>
-    <h2>é isso</h2>
-    <h3></h3>
+    <main>
+        <form class="add-form">
+            <input type="text" placeholder="Adicionar tarefa" class="input-tasks">
+            <button type="buttons">+</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>tarefas</th>
+                    <th>Criada em</th>
+                    <th>Status</th>
+                    <th>açães</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+
+                <tr>
+                    <td>titulo</td>
+                    <td>data</td>
+                    <td>
+                        <select>
+                            <option value="pedente">pedente</option>
+                            <option value="andamento">andamento</option>
+                            <option value="concluida">concluida</option>
+                            
+                        </select>
+                        <td>
+                            <button>
+                                <span class="material-symbols-outlined">
+                                edit
+                                </span>
+                            </button>
+                        </td>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
 
     <script src="./Js/script.js"></script>
 </body>
